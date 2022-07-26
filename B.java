@@ -1,25 +1,18 @@
 /*
- 	1. Object creation is mandatory to access the non-static members.
- 	2. Static members belongs to the class 
- 	3. Static member they get loaded in to the common memory of the class
- 	4. Always there will be one copy of static members where as no. of non-static members will be equal to no. of object created.
- 	5. To access static member we use---- 
- 			class_name.member_name
- 	6. Non-static member is also called as the instance member or object member.
- 	
-*/
-
+    using all type of concept together.
+ */
 package All_Concepts_of_Java;
 
 public class B {
-	
-	int i=10;
-	static int j=20;
-	int k=40;
+	static int i;
+	int j=10;
 	public static void main(String[] args) {
 		B b1 = new B();
-		System.out.println(b1.i);
-		System.out.println(b1.k);
-		System.out.println(B.j);
+		System.out.println(b1.j);
+		b1.test();
+	}
+	public void test() {
+		B b2 = new B();
+		System.out.println(b2.i);
 	}
 }
