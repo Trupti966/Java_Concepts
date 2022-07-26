@@ -5,6 +5,8 @@
  	4. Always there will be one copy of static members where as no. of non-static members will be equal to no. of object created.
  	5. To access static member we use---- 
  			class_name.member_name
+ 	6. Non-static member is also called as the instance member or object member.
+ 	
 */
 
 package All_Concepts_of_Java;
