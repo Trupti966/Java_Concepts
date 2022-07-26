@@ -5,6 +5,8 @@
 			5. To access the object we store its memory address in the reference variable,
 				Syntanx---
 						class_name reference_variable_name = new class_name();
+			
+			6. Memory addresses are by default is represented in hexadecimal format.
 */
 package All_Concepts_of_Java;
 
